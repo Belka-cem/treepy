@@ -1,0 +1,35 @@
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light color-nav">
+  <a class="navbar-brand" href="#">TREEPY</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item ">
+        <a class="nav-link" href="#">Connection </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="connect">Deconnection</a>
+      </li>
+     
+    </ul>
+  </div>
+</nav>
+
+
+
+  <div class="container-fluid foot-area">
+    
+      <ul class="nav navbar-nav foot-area-list">
+        <li routerLinkActive="active"><a routerLink="">Accueil </a></li>
+        <li routerLinkActive="active"><a routerLink="recherche">Recherce </a></li>
+        <li routerLinkActive="active"><a routerLink="profil">Profil </a></li>
+        <li routerLinkActive="active"><a routerLink="message">Message </a></li>
+      </ul>
+    
+  </div>
+
+
+
+<router-outlet></router-outlet>

@@ -1,0 +1,128 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'knex', '-', 'g' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData knex
+8 silly fetchPackageMetaData -
+9 silly fetchPackageMetaData g
+10 silly fetchNamedPackageData knex
+11 silly mapToRegistry name knex
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry uri https://registry.npmjs.org/knex
+15 silly fetchOtherPackageData -
+16 silly cache add args [ '-', null ]
+17 verbose cache add spec -
+18 silly fetchNamedPackageData g
+19 silly mapToRegistry name g
+20 silly mapToRegistry using default registry
+21 silly mapToRegistry registry https://registry.npmjs.org/
+22 silly mapToRegistry uri https://registry.npmjs.org/g
+23 silly cache add parsed spec Result {
+23 silly cache add   raw: '-',
+23 silly cache add   scope: null,
+23 silly cache add   name: null,
+23 silly cache add   rawSpec: '-',
+23 silly cache add   spec: '/home/belka/Bureau/projet-final/js/-',
+23 silly cache add   type: 'local' }
+24 error addLocal Could not install /home/belka/Bureau/projet-final/js/-
+25 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/home/belka/Bureau/projet-final/js/-'
+25 silly fetchPackageMetaData  error for - { Error: ENOENT: no such file or directory, open '/home/belka/Bureau/projet-final/js/-'
+25 silly fetchPackageMetaData   errno: -2,
+25 silly fetchPackageMetaData   code: 'ENOENT',
+25 silly fetchPackageMetaData   syscall: 'open',
+25 silly fetchPackageMetaData   path: '/home/belka/Bureau/projet-final/js/-' }
+26 verbose request uri https://registry.npmjs.org/g
+27 verbose request no auth needed
+28 info attempt registry request try #1 at 10:22:57
+29 verbose request id eae9ac0f5fd488ff
+30 verbose etag W/"6fd740ecd769ffa78b614cc855e971a5"
+31 verbose lastModified Sun, 27 May 2018 01:25:48 GMT
+32 http request GET https://registry.npmjs.org/g
+33 verbose request uri https://registry.npmjs.org/knex
+34 verbose request no auth needed
+35 info attempt registry request try #1 at 10:22:57
+36 verbose etag W/"85f937c9ffaf5bd84f7807e2dfccb0df"
+37 verbose lastModified Fri, 12 Apr 2019 08:33:40 GMT
+38 http request GET https://registry.npmjs.org/knex
+39 http 304 https://registry.npmjs.org/knex
+40 verbose headers { date: 'Tue, 07 May 2019 08:22:57 GMT',
+40 verbose headers   connection: 'keep-alive',
+40 verbose headers   'set-cookie':
+40 verbose headers    [ '__cfduid=ddd6463e264ab9fd234c9d16033be18a21557217377; expires=Wed, 06-May-20 08:22:57 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+40 verbose headers   'cf-cache-status': 'HIT',
+40 verbose headers   'cache-control': 'max-age=300',
+40 verbose headers   'cf-ray': '4d31ca041f8dcdb3-CDG',
+40 verbose headers   etag: '"85f937c9ffaf5bd84f7807e2dfccb0df"',
+40 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+40 verbose headers   'last-modified': 'Fri, 12 Apr 2019 08:33:40 GMT',
+40 verbose headers   vary: 'accept-encoding, accept',
+40 verbose headers   'x-amz-meta-rev': '403-cbc3bfe4f41f7f08e75d72ccf038060e',
+40 verbose headers   server: 'cloudflare' }
+41 silly get cb [ 304,
+41 silly get   { date: 'Tue, 07 May 2019 08:22:57 GMT',
+41 silly get     connection: 'keep-alive',
+41 silly get     'set-cookie':
+41 silly get      [ '__cfduid=ddd6463e264ab9fd234c9d16033be18a21557217377; expires=Wed, 06-May-20 08:22:57 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+41 silly get     'cf-cache-status': 'HIT',
+41 silly get     'cache-control': 'max-age=300',
+41 silly get     'cf-ray': '4d31ca041f8dcdb3-CDG',
+41 silly get     etag: '"85f937c9ffaf5bd84f7807e2dfccb0df"',
+41 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+41 silly get     'last-modified': 'Fri, 12 Apr 2019 08:33:40 GMT',
+41 silly get     vary: 'accept-encoding, accept',
+41 silly get     'x-amz-meta-rev': '403-cbc3bfe4f41f7f08e75d72ccf038060e',
+41 silly get     server: 'cloudflare' } ]
+42 verbose etag https://registry.npmjs.org/knex from cache
+43 verbose get saving knex to /home/belka/.npm/registry.npmjs.org/knex/.cache.json
+44 http 304 https://registry.npmjs.org/g
+45 verbose headers { date: 'Tue, 07 May 2019 08:22:57 GMT',
+45 verbose headers   connection: 'keep-alive',
+45 verbose headers   'set-cookie':
+45 verbose headers    [ '__cfduid=da8625f838cc692d11928d7ab3233b5d41557217377; expires=Wed, 06-May-20 08:22:57 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+45 verbose headers   'cf-cache-status': 'HIT',
+45 verbose headers   'cache-control': 'max-age=300',
+45 verbose headers   'cf-ray': '4d31ca042a1569b0-CDG',
+45 verbose headers   etag: '"6fd740ecd769ffa78b614cc855e971a5"',
+45 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+45 verbose headers   'last-modified': 'Sun, 27 May 2018 01:25:48 GMT',
+45 verbose headers   vary: 'accept-encoding, accept',
+45 verbose headers   server: 'cloudflare' }
+46 silly get cb [ 304,
+46 silly get   { date: 'Tue, 07 May 2019 08:22:57 GMT',
+46 silly get     connection: 'keep-alive',
+46 silly get     'set-cookie':
+46 silly get      [ '__cfduid=da8625f838cc692d11928d7ab3233b5d41557217377; expires=Wed, 06-May-20 08:22:57 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+46 silly get     'cf-cache-status': 'HIT',
+46 silly get     'cache-control': 'max-age=300',
+46 silly get     'cf-ray': '4d31ca042a1569b0-CDG',
+46 silly get     etag: '"6fd740ecd769ffa78b614cc855e971a5"',
+46 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+46 silly get     'last-modified': 'Sun, 27 May 2018 01:25:48 GMT',
+46 silly get     vary: 'accept-encoding, accept',
+46 silly get     server: 'cloudflare' } ]
+47 verbose etag https://registry.npmjs.org/g from cache
+48 verbose get saving g to /home/belka/.npm/registry.npmjs.org/g/.cache.json
+49 silly rollbackFailedOptional Starting
+50 silly rollbackFailedOptional Finishing
+51 silly runTopLevelLifecycles Starting
+52 silly runTopLevelLifecycles Finishing
+53 silly install printInstalled
+54 verbose stack Error: ENOENT: no such file or directory, open '/home/belka/Bureau/projet-final/js/-'
+55 verbose cwd /home/belka/Bureau/projet-final/js
+56 error Linux 4.15.0-47-generic
+57 error argv "/usr/bin/node" "/usr/bin/npm" "install" "knex" "-" "g"
+58 error node v8.10.0
+59 error npm  v3.5.2
+60 error path /home/belka/Bureau/projet-final/js/-
+61 error code ENOENT
+62 error errno -2
+63 error syscall open
+64 error enoent ENOENT: no such file or directory, open '/home/belka/Bureau/projet-final/js/-'
+65 error enoent ENOENT: no such file or directory, open '/home/belka/Bureau/projet-final/js/-'
+65 error enoent This is most likely not a problem with npm itself
+65 error enoent and is related to npm not being able to find a file.
+66 verbose exit [ -2, true ]
